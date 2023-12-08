@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.b1
+{
+    color:antiquewhite;
+    border: 3px solid rgb(51, 62, 51);
+    background-color: rgb(51, 62, 51);
+    border-radius: 15px;
+}
+body
+{
+    background-image: url("bkg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#signupbkg
+{
+    text-align: center;
+    font-family: Tahoma;
+    height:300px;
+    width:500px;
+    background-color: antiquewhite;
+    border: 10px solid antiquewhite;
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-top: 200px;
+}

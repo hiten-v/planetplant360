@@ -1,0 +1,19 @@
+body
+{
+    background-color:#363b34;
+}
+#cont
+{
+    visibility: hidden;
+}
+h3
+{
+    /* display: inline-block; */
+    color: #333;
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-family:fantasy;
+    font-size: 30;
+    text-shadow: 4px 1px 9px rgb(45, 48, 44);
+    padding: 30px;
+}

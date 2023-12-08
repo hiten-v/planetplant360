@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="/fr.ico">
+        <link rel="stylesheet" href="product_landing.css">
+        <title>Planet Plant360</title>
+    </head>
+
+    <body>
+        <header>
+        <nav>
+            <div id="navbar">
+            <ul>
+                <li><a id="home" href="product_landing_webpage.html">HOME</a></li>
+                <li><a id="cart" href="cart.html">CART</a></li>
+                <li><a id="contact" href="#contactus">CONTACT US</a></li>
+            </ul>
+            </div>
+        </nav>
+        </header>
+        <script>
+            t=prompt("Do you want to receive latest updates from Planet Plant360");
+            if (t=="yes" || t=="Yes" || t=="YES")
+            {
+                alert("You will now recieve daily new updates.");
+            }
+            else if (t=="no" || t=="No" || t=="NO")
+            {
+                alert("Notifications turned Off");  
+            }
+            else
+            {
+                alert("!! No response !!");         
+            }
+            // new Prompt({
+            // title: 'Prompt Title',
+            // content: 'Prompt Message',
+            // placeholderText: false, // custom placeholder
+            // submitText: false, // custom submit text
+            // onSubmit(component, value) {
+            // console.log(value)
+            // }
+            // });
+        </script>
+        <div id="bkg">
+        <marquee behaviour="scroll" direction="left" scrollamount="10"><h3> WELCOME TO PLANET PLANT360 !! </h3></marquee>
+        <br>
+        <form id="search" action="https://www.google.com/search">
+            <label for="search"> SEARCH ON GOOGLE ...</label>
+            <input class="input" type="text" id="search" placeholder="Enter Text" name="q">
+            <button>Search</button>
+        </form></ul>
+        </div>
+
+
+    
+        <section>
+                <ul id="ctg">
+                    <li><a href="indoor.html">INDOOR PLANTS</a></li>
+                    <li><a href="outdoor.html">OUTDOOR PLANTS</a></li>
+                    <li><a href="ceil.html">CEILING PLANTS</a></li>
+                </ul>
+        </section>
+
+        <br>
+        <br>
+
+        <div id="best">
+            <h3> OUR BEST LIFE-SAVIOURS...</h3>
+            <ul class="q">
+                <li>
+                    <img height=80px src="https://nurserylive.com/cdn/shop/collections/nurserylive-bamboo-plants-category-image-551050.jpg?v=1681381522">
+                    Bamboo Plant
+                </li>
+                <li>
+                    <img height=80px src="https://www.bhg.com/thmb/oDnjlrHprd67aYvinrMfQgVUPtQ=/5332x0/filters:no_upscale():strip_icc()/BHG-spider-plant-c0e0fdd5ec6e4c1588998ce3167f6579.jpg">
+                    Chlorophytum-Spider Plant
+                </li>
+                <li>
+                    <img height=80px src="https://nestreeo.com/wp-content/uploads/2021/06/Asparagus-Springery-Plant-1.jpg">
+                    Asparagus Sprengeri
+                </li>
+                <li>
+                    <img height=80px src="https://i.pinimg.com/564x/44/3d/98/443d9840e5e09f0ba74f090ba50e502f.jpg">
+                    Nephrolepis Exaltata
+                </li>
+                <li>
+                    <img height=80px src="https://eureka-farms.com/cdn/shop/products/image_7b5a485b-f2c6-4aad-9d48-76de27029833_1100x.jpg?v=1673899491">
+                    Dracaena
+                </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <div id="fact">
+            <h3> SOME AMAZING FACTS...(DO YOU KNOW?)</h3>
+            <ul class="q" id="fct">
+                <li>80 percent of earth's original forests have been cleared or destroyed which dominated 8000 years ago.</li>
+                <br>
+                <li>70,000 plant species are utilised as medicine.</li>
+                <br>
+                <li>Peaches, Pears, apricots, quinces, strawberries, and apples are members of the rose family!</li>
+                <br>
+                <li>Bananas contain a natural chemical that can make people feel happy!</li>
+                <br>
+                <li>All teas (black, green, and white) come from the same plant, camellia sinensis.</li>
+                <br>
+                <li>Oak trees are struck by lightning more than any other tree!</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <footer>
+        <div id="contactus">
+            <h3> KNOW MORE ABOUT US..</h3>
+            <ul class="q" type="circle">
+                <li>Mail : <a title="sending email" href="mailto:planetplant360@gmail.com">E-MAIL</a></li>
+                <br>
+                <li>
+                    Contact Number : 
+                   <div class="tooltip">7469000051
+                        <span class="tooltiptext"> Available from 9.00 am to 5.00 pm </span>
+                   </div>
+                </li>
+                <br>
+                <li>
+                    <form action="#feed.js">
+                        <textarea class="input" placeholder="&nbsp;Feedback"></textarea>
+                        <br>
+                        <button onclick="#">Enter</button>
+                    </form>
+                </li>
+                <br>
+            </ul>
+        </div>
+        </footer>
+    </body>
+</html>

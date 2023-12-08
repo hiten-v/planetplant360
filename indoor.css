@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+
+    max-width: 100%;
+    height: auto;
+}
+
+#head_indoor{
+
+    height: 100px;
+    text-align: center;
+    font-size:50px;
+    font-family:fantasy;
+    margin:50px 0 50px 0;
+    padding: 20px 0;
+    background-color: rgb(51, 62, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+
+}
+
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:300;
+    font-size:larger;
+    line-height:20px;
+    letter-spacing: 3px;
+    text-align: center;
+    
+}
+
+.in{
+    height:400px;
+    width:400px;
+    border-radius: 3px;
+    transition:width 0.5s, height 0.5s ease-out;
+}
+
+.in:hover{
+    height:500px;
+    width:500px;
+    box-shadow: 10px 10px 8px rgb(216, 159, 136);
+    border-radius: 30px;
+    /* transform: rotate(3deg); */
+}
+    
+
+#indoor_img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+#four
+{
+    margin-top: 50px;
+}
+#five{
+    margin-top: 50px;
+}
+
+#six{
+    margin-top: 50px;
+}
+body{
+    background-image: url(bkgin.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.box{
+    height:70px;
+    width:400px;
+    background-color: rgb(51, 62, 51);
+    text-align:left;
+    border: 2px black solid;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+span{
+    float:right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button{
+    height:30px;
+    width:100px;
+    font-size:15px;
+    border:3px black solid;
+    border-radius:5px;
+    background-color: #738156;
+}
+button:hover
+{
+    background-color: rgb(0, 200, 255);
+    color: antiquewhite;
+}
